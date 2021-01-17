@@ -3,7 +3,7 @@ import time
 
 
 def A2T(wav_file):
-    speech_config = speechsdk.SpeechConfig(subscription="c332c1bc68b441c7892e47f8345baa53", region="eastus")
+    speech_config = speechsdk.SpeechConfig(subscription="<API_KEY>", region="eastus")
     audio_input = speechsdk.AudioConfig(filename=wav_file)
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_input)
     speech_config.enable_dictation()
