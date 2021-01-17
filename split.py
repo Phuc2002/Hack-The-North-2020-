@@ -19,7 +19,7 @@ def split_video():
       }
     }
 
-    client = Algorithmia.client('simvILqpu4fGJgjXoP/a4WxLRW41')
+    client = Algorithmia.client('<API-KEY>')
     algo = client.algo('media/VideoAlgorithms/0.2.5')
     algo.set_options(timeout=300) # optional
     result = algo.pipe(input).result
