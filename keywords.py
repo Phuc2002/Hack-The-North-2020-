@@ -1,7 +1,7 @@
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
-key = "c895eafc0398433090b9d71793549aa7"
+key = "API-KEY"
 endpoint = "https://smartnote2.cognitiveservices.azure.com/"
 
 def authenticate_client():
