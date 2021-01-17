@@ -8,11 +8,6 @@ import time
 #data.post("COMP 2804B, Fall 2020, Lecture 1, Part 1.mp4","C:/Users/ilong/AppData/Local/Programs/Microsoft VS Code/Law of demand Supply demand and market equilibrium Microeconomics Khan Academy.mp4")
 
 
-#time.sleep(10)
-
-'''split.split_video()
-#time.sleep(20)
-
 temp = data.download()
 #print(temp)
 wav_list = list()
@@ -35,9 +30,8 @@ for wav in all_keywords:
     for kword in all_keywords[wav]:
         print("\t" + kword)
 
+        
 reversed_dict = dict()
-
-
 def reverse_key_val(all_keywords):
     for wav in all_keywords:
         for kword in all_keywords[wav]:
@@ -46,14 +40,12 @@ def reverse_key_val(all_keywords):
             reversed_dict[kword].append(wav)
 
 reverse_key_val(all_keywords)
-
 #print(reversed_dict)
-
 
 
 def search_lecture(keyword):
     return reversed_dict[keyword]
 
-#print(search_lecture("Amazon"))'''
+#print(search_lecture("Amazon"))
 
 data.delete()
