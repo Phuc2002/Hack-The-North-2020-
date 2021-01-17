@@ -25,4 +25,5 @@ def split_video():
     result = algo.pipe(input).result
     print("Spliting successful")
 
-#split_video()
+split_video()
+
