@@ -1,7 +1,7 @@
 import Algorithmia
 from Algorithmia.acl import ReadAcl
 
-client = Algorithmia.client('simvILqpu4fGJgjXoP/a4WxLRW41')
+client = Algorithmia.client('<API-KEY>')
 
 # Get directory's contents as JSON
 exampleJson = client.file("data://.algo/media/VideoAlgorithms/perm").getJson()
